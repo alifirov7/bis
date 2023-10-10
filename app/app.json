@@ -1,0 +1,53 @@
+{
+    "id": "5106d39f-d49b-41a3-b2e3-9ff269b52a41",
+    "name": "Business central",
+    "publisher": "Highway Mobile LLC",
+    "version": "1.0.1.0",
+    "brief": "Business central app",
+    "description": "Business central app",
+    "privacyStatement": "https://example.com/",
+    "EULA": "https://example.com/",
+    "help": "https://example.com/",
+    "url": "https://example.com/",
+    "logo": "",
+    "contextSensitiveHelpUrl": "https://example.com/",
+    "dependencies": [
+      {
+        "id": "c2e19967-6920-413c-9560-8a327ca984d5",
+        "name": "Highway ToolKit",
+        "publisher": "Highway Mobile LLC",
+        "version": "1.0.5.0"
+      }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "22.0.0.0",
+    "idRanges": [
+      {
+        "from": 50112,
+        "to": 50999
+      }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "target": "OnPrem",
+    "supportedLocales": [
+        "en-US"
+    ],
+    "runtime": "11.0",
+    "features": [
+        "TranslationFile",
+        "GenerateCaptions"
+    ],
+    "suppressWarnings": [
+        "AA0217",
+        "AS0103",
+        "AS0053"
+    ],
+    "preprocessorSymbols": [
+        "test"
+    ]
+  }
